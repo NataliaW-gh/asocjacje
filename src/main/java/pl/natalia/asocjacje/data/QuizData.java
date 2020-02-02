@@ -18,8 +18,8 @@ public class QuizData implements CommandLineRunner {  //interfejs, który urucha
     public void run(String... args) throws Exception{
 
         Test test = new Test("About everything");
-        Question question = new Question("What is The Capital of India");
-        question.addAnswer(new Answer("New Delhi",true));
+        Question question = new Question("What is The Capital of Poland");
+        question.addAnswer(new Answer("Warsaw",true));
         question.addAnswer(new Answer("Mumbai",false));
         question.addAnswer(new Answer("Kolkatta",false));
 
